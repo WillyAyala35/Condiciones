@@ -5,8 +5,3 @@ imagen.addEventListener('click', () => {
 
 })
 
-
-
-
-
-
