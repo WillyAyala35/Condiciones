@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+}
+
+div {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-1 {
+  background: green;
+} 
+
+.div-2 {
+  background: red;
+}
+
+.div-3 {
+  background: blue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  font-size: 50px;
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    background: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px;
+  }
+
+  div {
+    border: 2px solid #0000ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

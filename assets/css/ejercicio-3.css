@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  margin: 200px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  background: blanchedalmond;
+  width: 400px;
+  height: 200px;
+  padding: 30px 20px;
+  border: 2px solid yellowgreen;
+  text-align: center;
+  line-height: 40px;
+}
+
+p {
+  font-weight: bold;
+}
+
+select {
+  width: 70px;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  border: none;
+}

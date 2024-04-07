@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: blanchedalmond;
+    margin: 200px 0px;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    text-align: center;
+  }
+
+  
+  .foto {
+    width: 500px;
+    margin: 20px 20px;
+  }
+
+  #Verificar {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    line-height: 30px;
+
+  }
+
+  button {
+    width: 100px;
+    height: 25px;
+  }
+
+  button:hover {
+    background: black;
+    color: white;
+    border: none;
+  }
