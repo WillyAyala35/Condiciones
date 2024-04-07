@@ -14,8 +14,8 @@ const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
     
-    if (password1 == 911) {document.querySelector('#Mensje-Oculto').innerHTML = 'Password 1 correcto';} 
-    if (password2 == 714) {document.querySelector('#Mensje-Oculto').innerHTML = 'Password 2 correcto';}
+    if (password1 === "911") {document.querySelector('#Mensje-Oculto').innerHTML = 'Password 1 correcto';} 
+    else if (password2 === "714") {document.querySelector('#Mensje-Oculto').innerHTML = 'Password 2 correcto';}
     else {document.querySelector("#Mensje-Oculto").innerHTML =  "Password incorrecto"}
    
 })
