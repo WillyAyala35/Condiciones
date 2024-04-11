@@ -9,9 +9,6 @@ const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
     
-    if (valor1.value < 0) {return console.log('El valor tiene que ser un número');} 
-    if (valor2.value < 0) {return console.log('El valor tiene que ser un número');} 
-    if (valor3.value < 0) {return console.log('El valor tiene que ser un número');} 
 
     const valorTotal = +valor1.value + +valor2.value + +valor3.value
     console.log(valorTotal);

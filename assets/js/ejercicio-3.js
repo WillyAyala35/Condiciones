@@ -1,21 +1,22 @@
-const numero1 = document.querySelector('#selector-1').value;
+let numero1 = document.querySelector("#selector-1");
 
-const numero2 = document.querySelector('#selector-2').value;
+let numero2 = document.querySelector("#selector-2");
 
-const numero3 = document.querySelector('#selector-3').value;
+let numero3 = document.querySelector("#selector-3");
 
-const password1 = numero1+numero2+numero3
+let MensjeOculto = document.querySelector("#Mensje-Oculto");
 
-const password2 = numero1+numero2+numero3
+let button = document.querySelector("button");
 
-const MensjeOculto = document.querySelector('#Mensje-Oculto'); 
 
-const button = document.querySelector('button');
+button.addEventListener("click", () => {
+  let unoValue = numero1.value;
+  let dosValue = numero2.value;
+  let tresValue = numero3.value;
+  let SumaTotal = unoValue + dosValue + tresValue;
+  console.log("SumaTotal");
 
-button.addEventListener('click', () => {
-    
-    if (password1 === "911") {document.querySelector('#Mensje-Oculto').innerHTML = 'Password 1 correcto';} 
-    else if (password2 === "714") {document.querySelector('#Mensje-Oculto').innerHTML = 'Password 2 correcto';}
-    else {document.querySelector("#Mensje-Oculto").innerHTML =  "Password incorrecto"}
-   
-})
+  if (SumaTotal == 911) {document.querySelector("#Mensje-Oculto").innerHTML = "password 1 correcto";}
+  else if (SumaTotal == 714) {document.querySelector("#Mensje-Oculto").innerHTML = "password 2 correcto";}
+  else {document.querySelector("#Mensje-Oculto").innerHTML = "password incorrecto";}
+});
